@@ -1,0 +1,239 @@
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    12.872     -7.310      0.732      7.566           0.044                  0.897         -0.684      0.145        0.000          0.000          0.000         -0.653       0.000        0.000                   0.982                    0.000               0.106                  2.429                      0.000      0.031      5.724     -0.234            0.000      2.870         0.000          0.226                  0.000 .00      1.092          0.000                     1.000 result_proc0001_0576
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0001_0576
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LQ+qvA3riOGcZ23kPbfZ6ArCSTGc9rmqPAgt/ATpvOGM79X8Pu5VCBvifUG8YbbBQOqXABrgxQGcWGv2vVk15AXXNSG8HKiAwdKAGBXMnZG8CgW5vbTDsA/nhRGsDivxvaeUwA/gmGGMixDeP5/VrAvfRQGsCGH4Pznq5Ajx4bGMV6ZuPVl+BB/VlIGMUXe2v2Lk+ATuFQG8VuNEwZl3yAvX8MGM9peAwzoK3APgnaGMNdwAw result_proc0001_0576
+LTeH/ArcoDGcf0R+PVuzBBXDo9F8tz8DQEetHB/bX4F8J9MDQcHuKBb222FczLFHQKZf9AT4fpF8aLZFQPYp+AzZ2ZF8y+aBQAxe7ATly9F8Vd14PgicBBzrhEGMQpOHQp4MAB3cTjF8EXmIQGWD1Aj0VtFMLo5FQX698ArEdMFMHqGDQ result_proc0001_0576
+Lu+VJBzpl1FMfqY8PPx2OBzL3vFMT635PHaERBjGy9FMsLdePBMUVBj0N5FcOLHuvF3OPBnPcYFMYpR1Pzw7NBvIlIFMTMf/PasASB/9CJF8OGEEQU/3QBHBc5EsSMHIQRh5NB79W9EsAgTKQ8tyLBr5ZQFMSGrKQrMGNBbtDuE8XaFMQrqsGBHhf3FM1Ot0PUtSRBXDVyFMQGgAQCMgMBjOWVFcJ8Z1O+KRTB/t+UFMOIUvPMyDKBrggMFc7MfBQKTzNBTMc4EcflL8PPs7VBXXdFFc/0YCQyWFSB7w3YFM/44FQ1YbSBHCmqEMmBzHQs8ZMBDdGcFMeBUJQe+jJB79VTFM3PUMQ42tOBXYafEsARzLQXi3KB7q/wEMKguNQ result_proc0001_0576
+LUnKOBzMZHGMbr6lvPHsPBTWZOGMcmj6ve5lSBzFUYGMPYA1vtHmRBHpCcGcLWkpPWU5VBjzlcG8UAA8vHtwKB7J0RGsoFeAwHy+FBDClZG8i7V5vWEZABXuzQGsiFw2vBU0KBzHDJG8Cp3pP1hXSBbRAKGcLp2/vsWAMBvwkWGMn/5Dww9tIBHpvKGc60/Bw result_proc0001_0576
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    13.051     -7.013      0.754      6.919           0.045                  0.864         -0.733     -0.397        0.000          0.000          0.000         -0.671       0.000        0.000                   0.984                    0.000               0.214                  2.537                      0.000      0.027      5.970      0.129            0.000      2.870         0.000          0.552                  0.000 .00      1.050          0.000                     1.000 result_proc0003_0267
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0003_0267
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LrRnvAvDkPGsLOIpPcwn6APVmTG8T0ctP539/APK5NGM0ib8PUP/CB3IoSGsoXbBQBxPABzrsRGsnsI2vp7b5Ann2TGMkpQAw07GGBTG6ZGs/VG5vHE+rA3HVTG8eIDvv/LyvAf+sHGMZn4cPnNmrATV6QGM8WE5PLXa6ALtGcGsvmPyPItmBBjKVJGMzhj2v2P19A7VsRGslWCEw5sKyAHzAPGsl+LAwMNR3ADpacG8/UUAw result_proc0003_0267
+LVnM+Ajo0CGsQvw9PkLSBB3r75F8VSbDQVYXHBPY34FsZFKDQ8YGKBbXl7FsxhMHQj399AfwfjFszSmDQxH8yAzk+jF8EQmEQUfy5A7Qt9FcHmR4PQlKABbrJBGc0qFHQJ4e/ADnfbFsPfm/PPI/ABfSTaFMvdtGQaTgxATJIYFMey7GQ result_proc0003_0267
+L6hdJBnC50FcJGw8P3SNPBHrRyF846P7PJCKRB7Nn+FMqQ6jPpoLVBfA44F8hwntvqPoQBHWvaF833+5PHHrPBjpGNFMI77BQlQYTB/o4SFsSaWGQI3pSB7MNFFsa9fJQH1NPBbDNJFMq2gLQWWOMB3vfaF8XYdLQZf2OBHcv7E8PyiNQesAHBLmpzFsVyt0PqAQRBH4e4FcUvJBQlDTOBD23TF8n+4tPww1UBbsPZFMNps3P8VlLBjfaPF84aVDQrlSQBjZS8EMDs8AQe2fXBnrPRFcMD/EQQDqSBz4XjF8RIkHQ5z4UBnqv3EMNLnJQLMgMBzXykFs3D6JQAdpJBLffdFMh+9MQAvJRBzacuEsLdlNQAsRMBjEv+EM6UDPQ result_proc0003_0267
+LQ1ROBD1yHG8wZcivxzqPBLbTOGMK4k6vcRvSBL5SYGsNwh2v9z9RBPDfcGsJ9GkP7K9VB3SLcGs4PP9vtwoKBHAmRGs7WWAwqeFGBzJ4ZGsppF5vOORAB/vuRG8vrJ2vT1CLBndyJG8pPbsPaZMSBn5jJG8y33/vSYxLBvn+VG8Tc8DwqYeIBbidKGcVmnBw result_proc0003_0267
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    13.293     -7.238      0.661      7.456           0.043                  0.909         -0.743      0.526        0.000          0.000          0.000         -0.607       0.000        0.000                   0.983                    0.000               0.166                  2.466                      0.000      0.045      5.826     -0.207            0.000      2.870         0.000          0.137                  0.000 .00      1.122          0.000                     1.000 result_proc0003_0394
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0003_0394
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LlJovAvDFOG8zUakPHkG6AvPVTGsBcwqPmFl/ATO/OGMSOa8PWaMCBL95UG8nqbBQPnTABHqNRGcC2n2vbl55AzJ6SG8PPjAwuKCGBXx3ZGMwC/4v2m5rAXg7QGsCx2xvs0qwA75LGGMKqRcPe1LrAXAjPGMhmC4PSX84Aji4bG8WiyuPOt1BBDw9IG8fMf2vtft+ATizQGMyONEwai1yATTxNG8NxlAwJ5Y3A3qXbGcMIvAw result_proc0003_0394
+LkmV/AXg3DG829V+PtnACBDhb+Fccu+DQmq3HBb6u4FcHFHDQtEALBDA33F8q45GQ8s09ATEpqFcWKoFQdTy+AvYdaF840xBQRK17A/vA+FcxN74PAwxBB/NGFG8GgMHQivZABHX4kFMHyuIQj9a1AXYvuFMEJKGQvQ/8AjgWNFcIakDQ result_proc0003_0394
+L+HVJBrb30Fch3L8PlgzOBjx+uFcpnc5PBfARBbYR9FMPJ0ZPFvOVB76z4FsBXvvvq+EPBfuuXFMIpwzP5kvNBnkdHFc0Vh+PbG3RBbWHHF80viDQw2qQBzjN3EcyhnHQMUsNBja56EMPdAKQjzoLBnG+NFMeFbKQYn1MBTlVrEcwsvLQe5kGBTKC2FM2nm0Ps9SRBHu6wF8AVRAQrPUMBnnLVFccBybvS0FTBrGLUFsqb4rPN45JBfpeLFcgbEBQYLhNB3Ni3EsVD/6PHrvVBPtUDFMbszBQs3CSBjkvWFs0pdFQaqLSBzqVoE8ZbHHQmnSMBzU3ZFMQDGJQsAaJB72uQFMghEMQkvaOBz5qcEcPObLQr5mKBLPGuE8+EZNQ result_proc0003_0394
+LY2HOBTFPHGM1QQmvCTqPBXieOGs2HZ6vDFkSBLaRYGsdcG0vzsjRBPLwbGsYlwrPjF4VBfVscGcUOa7vfhvKBTUFSG8QhWAwBwAGBvs1ZGMde+4vjCVABv1PRGM+po2vxxxKBj/yIGMS54pP7/VSBvnOKG8S/y/v1LAMBXR6WG8DiwDwaPqIB/MGLGM5/6Bw result_proc0003_0394
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    12.405     -6.129      1.381      5.139           0.029                  0.470         -0.847     -0.179        0.000          0.000          0.000          0.000       0.000        0.000                   0.986                    0.000               0.486                  2.698                      0.000      1.150      3.471      0.162            0.000      2.870         0.000          0.716                  0.000 .00      1.235          0.000                     1.000 result_proc0002_0421
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0002_0421
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+L4svxAHyMMGsiKxfPARw7AzJ7RGMJ9dtPqpNABXNhNGssOe9PfifDBvnrSGMFxeBQ6irBBjEfQGcHm6zv7YL+ATLsSGsTZRAwBduHBfLaYGsa3yzvcqjuAvmFPGshOhzvt7RzAzpZEGMytJCProlsAzyNNGMsFC2PE2C6A3dXaG82aAxPJ27CB/sDIG84nOzvt75BBPPWQGcgPlDwI142Ab5AOGcVs1AwiZR8A3BTbG8bejAw result_proc0002_0421
+L6GX9AjZNDGMt8cAQM/NBBzvD8FsXRBFQjUHHBPIs3FsCB8DQSHWKBzAh2F83EpHQGPv8AzdSnF8jyUGQN289AP3ZYF8qXLCQN+f3A31o+F8xi78PNc7ABLSXDGswwOIQgH9/ArZrgFcTwAJQzMR0ADgcqFMoj+GQ9J2BBjsIPF8PuPDQ result_proc0002_0421
+L+hfIBfrS1FM+gr9P7DFOBPcO0Fcn5X6PrT5OBDhu+FsTmBYvS3YNBL101F8LOw4v5x9PBTbGdFMtH45P0G1VBjpOaFsTB/1PtWbXB3yVDFMmrT2P+QBdB/rfAFMVRlwPkfifB/ddtEMYDWvPWs6cBbMybE8HMJ0PDrUiBTwjsEsC0IhPIImFB7dL0Fcx1E4PBxfQBjou8FcFUIAQ0GUPBLtdVFcdKzAQAumNBzdZUF85p5vPB9iWBL9fgF8bAKgvszTYBH82iF86qu8P+70WBvn28E815J/P30/UBDLb6E8K+pjPh2KfBHFvNF8AWEqPD2AZB7TecEMzYI4PThzeBLPhNEsjidzPJMVjBTrJ6EctyOZvWDRjB7TTeE8Io0cP result_proc0002_0421
+LkiSRBPm2IGssXtWv6fvRB/eTPGsgoI6vrfiUB/+4ZGc2zu3vGPLUBX6LeGcbddfPEqIXBfLJeG8Kru+vczNMBX/gRGc8d4+vG+sHBTVYYGcVXyzvfGtBBvBhQG80d6zv4g1SBr5qLGcJ+50Pk+FUBLo3KG86P//vZuoMBDOXWGcqsCDwNnWKBXF/JGcr4mAw result_proc0002_0421
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    12.878     -7.339      0.743      7.585           0.042                  0.897         -0.702      0.056        0.000          0.000          0.000         -0.656       0.000        0.000                   0.982                    0.000               0.113                  2.430                      0.000      0.057      5.749     -0.188            0.000      2.870         0.000          0.238                  0.000 .00      1.091          0.000                     1.000 result_proc0002_0387
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0002_0387
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+Lr9qvAfAvOG8gPqlPBwd6AbsVTGMeMqqP7H1/AroqOGMa3S8Pf9fCBP/SUGs4SXBQtQVABrK1QGcjo42vJY35AfAKSGcIXnAwwo/FBT2lZGMjIc5vYBBsA/xzRG894axvF4NwAvvyGG8TblePp8brAf+dQGcbQR4PqI25ATe8bGMFsvuP596BBjSoIGcsxU2vfDq+AvT6PG8CaQEwL23yADF7MGMZrjAwLJP3AbakaGsSX6Aw result_proc0002_0387
+L1zD/A7wjDGsxjK+PodvBBv2R9Fcir4DQMArHBbHZ4F8nFNDQW+pKB/PU3FcoLHHQ9Jd9AjE5oFM5tMFQ8x2+A78hZFsbULBQ8QW7Ab0y9F8WUt4PFqSBBvxOEGM2KNHQiHJABzniiFsPHgIQ+Y+0APqdsFM8jpFQjKt+AnL5LF8Ca8CQ result_proc0002_0387
+Lh7WJBfac1Fss+b8PxA6OBz3DwFssgD6PLYFRBzq09FcSO1fPwMUVBTHM5F8XW7tvYJaPBL0jYFc4FF2PglJOBjK7IFsSYAAQGOMSBHMAKFMJmWEQfdGRBThl6EsPQSIQR3DOBTqi+EM6EdKQz11LBbQcRFcDXxKQLwTNBD8avEMS3QMQwpuGBzK+2FM/1s0PGfTRBPh+yFMgNmAQ4NuMBjBBVFM0hQVPYNeTB/0TVF8t1pwPcpPKB3BsMFsZBtBQYsGOBrWq4EcLZ28P8GJWBzgnGFs6HuCQL/KSBzy8ZF8lJHGQSZvSBH92rEcSIHIQfnaMBf//cFMg2YJQYAkJBz9ZUFMZZZMQw9APBfy4gEsCRBMQAACLBjiYyE8314NQ result_proc0002_0387
+LouKOBPlYHGsJPhlvGWrPBDjWOG8Fwi6vurjSBfTUYG81PF1vmRjRBHWFcG8cRVpPGk2VBD/lcG8dwD8vNivKBLYsRGc6WeAwyP+FBLtjZGsbib5vIrWABzW3QGsQo52vxY0KBnkCJGsnvDqPNcXSBvK9JGsPK0/v4w+LBbQXWG8rX8DwTfsIBvglKG8658Bw result_proc0002_0387
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    12.873     -7.340      0.832      7.449           0.040                  0.883         -0.712     -0.429        0.000          0.000          0.000         -0.674       0.000        0.000                   0.985                    0.000               0.488                  3.053                      0.000      0.006      5.434     -0.307            0.000      2.870         0.000          0.295                  0.000 .00      1.188          0.000                     1.000 result_proc0008_0298
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0008_0298
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+L6qRwA3YaNGM8VDhPOxp6Ara1SGsFyfpP6lAABzttOGsTLQ8PuGwCBb2nUGMW5EBQ8zrABfmqQG8xM92vzKW7ALo1QGMTD7AwMVWGBzpaZGc7if5vI6nsA/NHQGsdF6yvOgcxAnlhFGsXHeXPrtsrATO6OGsxeC3PIjW5AvcYbG8F/7sP4+TCB3xmIG8ahN0vvRXAB7n9NGMO4OEwN9b0AftfLG8fT3Aw+Sq4AnmFZG8PRwBw result_proc0008_0298
+LdV4+Azb0DGMWE/+PHi2BBXLx+Fs9TUEQdxsHBz8/4F8QQZDQ2u1KBLZp3FsjCLHQp9j9A/VIrFc9rHGQpsL+AbgzaFsapSCQVSn6AHD89FMzaI6PekqBBPKaFGcRBeHQTpZABvCdlFsJH9IQqCO1An5XvFsC7yGQPZcAB/CeOF8w3IEQ result_proc0008_0298
+LJ7IJBPFn1FMBts8PoQlOBXvbvF8ag35PamlQBzuD8FcQ4vPPX1rTBD25zF8u5d0v2e3OBbsnXFMbYz2Ph+0NBvcBJFs2BdAQzCLSB/XdKFMOYfEQtQWRBTzp7EsxzcIQaQjOBjGMAF8nrrKQByVMBLTITFcEc+KQ84BOBvNmxE8d+kMQnIZGB3+W3FseRr1PM/LRBHdzyF8FDVAQz58LB/2qTFMdH5hPWM0SBveuTFcx0gwPkBFKBrYkNFcToXCQcIkNBDKf4E8Q6K+PZO/VBHfqGFsWAnCQogUSBXAoaFssMHGQoT/SB7e6sEMrBTIQZSvMB7KSeFsFuhJQcoPKBz2hWFspgpMQiruPBHECjEcWjWMQN07LBfp/0E8L/POQ result_proc0008_0298
+LsZzOBzIAIGcpxRav7mMQB7EuOGM6sw5v60zSBbdHZGMHDS0vaQqRBzQKdGMoDKqPbACWBPzddG8rix7v4hOLBvDTRGM89MAwP6UGBrrYZGMa3e5vOPtAB7zsQGsmW+2vE3aMB7cALGMMATyPkTBTBPcXKGsBBy+vfGaMB3PiVGM460DwXuSJBrM4JGsoTbBw result_proc0008_0298
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    13.489     -8.665      2.299      8.052           0.032                  0.795         -0.564     -2.735        0.000         -0.947          0.000         -0.688       0.000        0.000                   0.985                    0.000               0.304                  4.211                      0.000      2.543      3.751      0.116            0.000      2.870         0.000          1.131                  0.000 .00      1.086          0.000                     1.000 result_proc0008_0407
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0008_0407
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LmV9xA/l1UG8M59wPYX68AjiGSG8ebJhPDNFBBDSzLG8qb35P1wGFB3aLPGsOdu+PNhW8ATdtLGsQ2I5vLPy4AnD+RGMFKXBw/WcEBnIoFG8Ak/8vhMYuAfYDZGs05XivIs0tAr5HOG8+vqzPPHOyALnMZG8Y6L7PJ3tABH7ZZGMPeoKvWFt2AL/HFGMjyU3vlN23AD0ZMGc9j3EwrFBxAf4wVGsPLvAwLa0+ATyJYGsZGSCw result_proc0008_0407
+Lb969ATVuBGc1kr8PzPvABHHD4F856GDQLQ0GBTKB4FcjFiDQkBDJB7aJ8FswJzHQRPW9AjVPhFcagBDQyRKyAzkxgFMGDXDQDwR4Ab1v8FMA873PmsP+ArTFAGMEgnGQmI7/AvtZZFcvts+PL3YABDwXYFMU+WGQXRVwArGrSFcLHlEQ result_proc0008_0407
+LZleJBjjVzFs9sK+PxDTPBDqc0FsIZq9PRNJRBDkhAG8IJovPdaKVB/no7Fcubygvl9sRBHFGeFM6XT9Pqb2QBLh1QF8FcrDQQP2TBr5sZFcuxJIQD9OTBXNjMFs4CiKQ5XTPBjn5OF8bgWMQ8VrLBbT7dFsMYCMQg2FPBfWGCFcI/cOQfoaHBDO5uFc6pK3PImvQBfAi8FcQnaCQVp/PB/AQVF8pMP1PQAAWBfSPfFskb87P17mMBvCpQFs0EsEQ1WOSB/pgAFM62+CQevFYBvShaFcu+UHQ45XSBjpspFsOzmIQvs8VBnD0AFsY71KQdr1LBrjtnFMLlbKQazuIBfBsfFsCqZNQwR4RBr1i2EcwdsOQxaJMBfA3DF80N0PQ result_proc0008_0407
+Lt1LOBPU8IGsAv7hPM4pOBDECOGc9gN5vcE8RBbnRYGcHRj4vfC/RBT0rdGMctTSvZbhUBLMKbGcmhDAwV8HJB/VnQGcj7v9vj0aEBbhpFGsRs+8vbzZ8A3FsLG870J5v9tiLBLE5LGMVJM1PtEqQBrAgIGs6fo+vxGbHB3YZXGcAlc5vDMgJBDA8SG89xDDw result_proc0008_0407
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    13.035     -6.940      0.717      6.813           0.049                  0.873         -0.740     -0.333        0.000          0.000          0.000         -0.670       0.000        0.000                   0.983                    0.000               0.236                  2.431                      0.000      0.000      6.008      0.126            0.000      2.870         0.000          0.610                  0.000 .00      1.053          0.000                     1.000 result_proc0005_0017
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0005_0017
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LFjgvAbGdPGMml7oPoLd6AzYnTGMSBxtPHyw/A7y9NGsUTk8PE5vCB7AzSGMJZlBQs+OABPeyRGMKA21vzsS5AH+cUGc72EAwSAIGBLh9ZGsvdw4vkC5rADuLTG8J5Zvv3TyvAHPmHGMKMEcPCjZrArJwQGs3Q+4PUQI6ADgHcGcK7ZyPy0iBBzXaJGsjvH3vKBj9AjUmSGsPs7DwLQ+xAv5rPG8TqDAwh+N3AHKCdG8sk1/v result_proc0005_0017
+LjmR+Ani1CGsc/v9P+zVBBfY/5FsqqaDQh9aHB3D84FcxIIDQ4/KKBTP/7F8n7IHQOtF+A3GjjFsSpmDQKDFzAv+AkFsHkpEQ+ID6AvQo9Fs1NK4Pv7OAB/BMBGc7HFHQdxi/AbxjbF8QNm/PqyEBBbVWaF8FosGQVSRxAPjBWFcg+8FQ result_proc0005_0017
+LP6fJBvqm0FsJqt8PHyPPBHfJyFMJ4K7PS4JRBrKf+FsUlBjPoFIVBnzn4FMmUmuvlUtQBzZpaF88M75P/qxPBzVBNFcwe6BQ4NfTBLp3SFMyRUGQF2wSBXPSFFsncfJQmxQPBTeLJFs6yeLQf8MMBzVRaFM9IZLQJ25OB3Q07Es3ZhNQ5DCHBb/9yFcB5u0PuoSRBz/c4FsBcGBQz5YOBTTsTFMv1rtPBA7UBzqQZFcbhl3PeAsLB3NSPFMRlUDQ92ZQBnUN8EMkc7AQEsmXB3qLRFsJy8EQgaxSBvnYjF8cwgHQwEDVB/j+3Es0UoJQOeeMBjEfkFcTT1JQdBlJBzHMdFs8k4MQzbQRBzGruEcNwlNQLBSMBD8u+E8ayAPQ result_proc0005_0017
+LNQTOBPdzHGsM0VivrDrPBn5WOG8rvi6vS1ySBP+RYG8E0b2vI7ESB/4acGspm0kPB5/VBTCKcGcBTO9vgBoKBn7wRGMFmRAwJjGGBfj7ZGMR1v4vVcQABDi0RGsv421vRUGLBjs0JGMzfzsPG+JSBTanJGcqy6/v9fvLB/FRWGMps1DwQ2cIBnprKGcg3lBw result_proc0005_0017
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    13.522     -7.226      0.848      7.363           0.045                  0.901         -0.472     -0.502        0.000          0.000          0.000         -0.631       0.000        0.000                   0.984                    0.000               0.240                  2.533                      0.000      0.129      5.967     -0.062            0.000      2.870         0.000          0.535                  0.000 .00      1.044          0.000                     1.000 result_proc0007_0401
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0007_0401
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LKqYvAveIPGcZqflP5wO6An4eTGMuXgsPFuK/ALMdOG8sqz8PlewBBj05TGs+3+BQsDXABPZGRGse9p1v6aH6AngPSG88pYAw4wHGBfNlZGcva54vO8AsArccSGMjWixvQAzvArCNHG8a6QbPhu9qArgyQGMKTJ4PiFw5ATjEcGMstswP3j3BB/p2IGMRMe0v2M/+A/grPGMmm8DwhgBzATWJNGMtsTAwtLq3AveraGM7h1Aw result_proc0007_0401
+L5+7+APFODGMvq49PNrkBBvQx7F8csrDQDBlHBHvG4FMLkNDQJXbKBDIf3FcxZOHQSFf9A/IlmFcyuhEQBgo/Az6ZYFcVdUAQXnx7AnMh9FsT333PsB2ABrU/CG8SXJHQa6CABPRifFc2cJIQnY50AL+RpFcnG0EQHT17ALLeLFsXeJBQ result_proc0007_0401
+LhweJBHqr1FMPqk8PSMHPBbPGxFMz1l6PLIQRBz7W+FcEaciPdGYVBjcG5FclQjtvOj6PB/2cZFMZoL4PD9rOBfQeKF8+RuAQ7CmSBb9/MFMq2JFQuuiRBHJN+EsnkwIQgGQOB31QCFcAO1KQmluLBfjrUFcab+KQC3jNBfmuzE8JFuMQEd9GB/SD3FMHyl0PLbYRBraI1FsKa4AQC8XNB7szUFcRS+jP7MDUBfXrWFcT+kzPDAtKBrw6NF8fkRCQP61OBjO85EMc7q+PhnnWBDo9JFsOeqDQptXSBvBPdFMsSuGQ/baTBHG3vEcW8tIQ/ZQMB3oyfFsmCiJQQvQJBfLuXFsh1hMQ3DgPBzMklEs6/mMQYGGLBbHx2EsrbROQ result_proc0007_0401
+LVIbOBnjyHGsocfiv96wPB7cSOGMznn6vxW1SB7fTYG8hqw2v87FSBLhgcG8RpNjPVOBWBPUMcGsywa9vV4sKB7ViRGMOJVAwIVGGBnOjZGsgt44vgfYABviIRGsc9q1vY5QLBD14JGM63DtPteRSBXLjJGMhy8/vN3yLB/FFWGc144DwTrlIB7wYKGM1EqBw result_proc0007_0401
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    13.201     -7.271      0.730      7.470           0.044                  0.892         -0.724      0.116        0.000          0.000          0.000         -0.657       0.000        0.000                   0.984                    0.000               0.221                  2.559                      0.000      0.056      5.778     -0.170            0.000      2.870         0.000          0.305                  0.000 .00      1.083          0.000                     1.000 result_proc0013_0216
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0013_0216
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LxUovAjgmOG8kXDlPH3T6A/QaTG8BdTrPrAo/AvosOGM0td8PPzRCBvXVUGMUciBQxyWABXFMRGspac2vtb+5AHbdSG8j6hAwrgEGBrJzZGMqtR5vclAsA/4sRGMsjlxv2gWwAn7rGGs7HjbP1wQrAjSJQG8N1J4P83f5AbB/bGc3Z4vPhl5BB7T9IGMo1o1v3xx+AHUEQGsFPJEwsP7yAffTNGcbKdAwJRc3A/E5aG8O24Aw result_proc0013_0216
+LDSF/A33iDGcPoI+PKYvBB37H9F8wC3DQNbrHBTpW4F8plMDQcopKBHgT3FcxSHHQmye9ArVpoF8haHFQGqz+AjvjZF8dgBBQqnj7Afky9FMG9i4PY3QBBD/FEG8P5MHQuRMABXvCiFc6JcIQLkA1A3dLsF8zynFQGJwABfh3MFsk2tCQ result_proc0013_0216
+LXpYJB3Ve1FMkib8PQZ8OBnONwF8UJF6PedGRBT739F8ZwWfPlDTVBTdF5FM62ZuvCRfPBn2qYFsYbV2PP0ROBLAKJFcCAHAQOmVSBjFgKFsR2bEQAxTRBTeI7EsBuVIQWXROBbrC/EsZsgKQM0/LBXO2RF82V0KQc/kNBHK+vEcNRVMQ65wGBzP+2Fcz4p0PUVVRBzDUzFsqvmAQLCzMB3y6UFcJIQZPabjTB/QgVFcgL4wPM9XKBri3MFM2R0BQUUQOBHp14EMsMI9PWiSWB/0PHFMzbyCQ/MSSBvCfaFM9ALGQve/SBLkesE8ZGLIQCvhMBvgXdFcwObJQLIuJB7uxUF8efcMQk6UPBTqghEcQKGMQrYTLB7j5yE8EX9NQ result_proc0013_0216
+LrNNOB/MdHGsq9Ulv+esPB/jYOGMuKk6v5yoSB3xTYGcZsS1vmgsRBr4GcGcOG+oPkz6VBfZhcGMHpP8v9SvKB7vyRG8+wbAwXFDGBnHxZGMsBR5vrNYABnPORGM8ad2vH74KBbYLJGsOAdqP4jVSB3y7JGsv04/voS9LBzvaWGsNL7DwQIpIB3ptKGcHC4Bw result_proc0013_0216
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    11.062     -7.344      1.142      6.825           0.035                  0.826         -0.673     -1.196        0.000          0.000          0.000         -0.677       0.000        0.000                   0.985                    0.000               0.314                  2.405                      0.000      0.775      3.675     -0.085            0.000      2.870         0.000          1.184                  0.000 .00      1.291          0.000                     1.000 result_proc0012_0169
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0012_0169
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LnDJxAf9+LG8RsbePNl/6ADZESGsY5HsPs9r/AruVOGcGTZ9PA/cCBfJcUGs36qBQ2mWBBnQTQGMuDT0vv1x9AvxoSGsofaAwuhbHBfjHYGssogzv0M8tAzyaOGsJvB0vud3yAz4LEGc94BWPud6rAjNNNG8tlq1Pp5E5AfHhaGcJ/vuPtVkCBbW2HG8fApzvrKxBBnKTQG8D7qDw+de2AfLCOG8JMFBwzY97Av8QbGsfnrAw result_proc0012_0169
+LmFN+ALdmDGsMlRAQ2j1BBvXQ+Fszj6EQZRpHBjW/4F8BIoDQ+vELBjEA5FceRKHQPE89A7ZSqFsnr0GQagX+ADDHaFsSu8CQMfO5AvPy9Fc/GR8PnCyBBXqDFGsluDIQoezABncpkFcdiQJQQGo1AnFIuFM1etHQJ+zAB3kAOFcylqEQ result_proc0012_0169
+LCZuIB/gf0F8E5F9P7VLOBDMqwFsWEb5PlDSPBLeS8FcnncgvnziOB7AXzFscXt5vXuKPBj90YFMvo13P1o+OBLwqLFcZjEBQ49oTBnPKQF8VHlEQm3sTBXkaCFcetoIQ5IQRBHT/GFsJ69KQRmkOBDh9YFcK2OLQY2iRB3Ga5EsKP/MQTMsFBjXtzF8wzi3PjF8QB/ep2FcYYe/PMYMMB3WSSFceM1pPMdFTBbsZWFsm4kwP0vVLBPpdPFMP4RDQqVAPBrrr6E8ylEAQfCVXBvLgNF84wWCQp8eTBDfugFsTO7FQlVuVBTFc0EcClgIQ5SWOBr7VjFMJ/rJQDJvMBP5YcF8Hq+MQrwmTBnnlrEslNyMQadtPBLX18EMG/uOQ result_proc0012_0169
+LUjDRBrUIIGssNXOv5ygRBvrGPGMD2h5vAQEUBj1wZGcs7H1vW4fTBbGkdGsgozpPv2qWBH4jeGMv6C9vi3AMBrzIRG8jse+vWAaHBnvFYGMDYgzvfJYBBzLVQGM17S0vQUHSBLm9KGsDMF2P7zBUBvRKLGcjad/vdAeMBLD3VGcvL4CwKvMKBfUiJGcJWXAw result_proc0012_0169
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    13.058     -8.018      1.609      9.245           0.061                  0.896         -0.350     -1.451        0.000         -1.046          0.000         -0.673       0.000        0.000                   0.982                    0.000               0.807                  2.691                      0.000      0.411      5.391     -0.391            0.000      2.870         0.000          0.024                  0.000 .00      1.282          0.000                     1.000 result_proc0014_0462
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0014_0462
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LZYTxArOKNGcuNHjPW8r7ALerSGcf8tnPXqHBBnTtNGczlq6PkClFBzXWRGsHDU9PismABjBsRGMkxx4vML44AvIzVG8DeLAwTEVGB7NUaGMxqo6vKD3sA7QbQGsHG0wvi5eyATPaFGs0MQNvo/ftAX04NGsA8Y4PsMZ6AD4DbGsQsavPnn2BBXtnJGccFQ7vubE8ATscVGcJmYEwIpnxA/P8QGM4JHAwyQ42AbzIeG8ODP+v result_proc0014_0462
+Le9P+ALNnEGMRFBAQOIuBBP0WAGMdTyEQWmfHB34a6Fc0soDQ3QyKBXAB5F8AASHQAwT9AjbgtFcYb3GQSxq9AvVjcF8JBNDQuEo3A/Q9AGMifM9PC1uBBrqjGGcF12HQwzWABniZoFsgcVJQLVB1ATBByFspYmHQ+wP7AH7IQF8pXHFQ result_proc0014_0462
+LzvsIBfOp2F8E9F9PEECOB3bxvF83y25PGI9PBn7I8FcJG5CP3G8SBr2tzF8XlC1vCDFOBT87XFcyww2P+CFNBDgeJFMdleAQU9jRBHuWKFMWvXEQJJwQB3du7EcQQaIQVnJOBrrtAFMF6rKQFlIMBDF+TFsIcALQx+nNBv2PyE8SJmMQcP2FBzYl4FMO552PygyQB3TzyF8JNOAQYACLBXOYUFMQqUjPIE8RBbohTFM6x5vPrpbJBn3fOF8r2gCQT7oMBr8+4Es9rP+PE3RVBvgAGFsyzXCQPw5RBPpgaFsjI+FQr1PSBHRwsEc/KPIQhSiMBfyBfFsAAjJQ6xLKBjTtXFMGmtMQKNLPBDLcjEc0WWMQGQrLBr8+1EcUPTOQ result_proc0014_0462
+LEnOOB7ZFIGMrRocvgVAQBz3DPGMJ3b5vNYeSBTDUZGcH9Jyvob+QBTrGdGsYrAuPCN7VBH7ydGM5aB6vDOVLBbN5RGcEgZAwVrTGBHCSaG8RHo6vfHoAB3KuRG8/Oy4vignLB/C8KG8rkWxPnTBTBDI1KGsKlG+vtd1MB3RCWG8Rf7DwXyYJB79kKGMCWwBw result_proc0014_0462
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    13.638     -7.278      0.797      7.376           0.041                  0.880         -0.695      1.093        0.000          0.000          0.000         -0.639       0.000        0.000                   0.982                    0.000               0.201                  2.529                      0.000      0.027      4.772      0.131            0.000      2.870         0.000          0.553                  0.000 .00      0.909          0.000                     1.000 result_proc0014_0700
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0014_0700
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+L6C5vAv22RGMpAAtPFvb7AHHJUGs1zruPlILAB/TqNGcNRd8Pe8GDB7WxRGMKatBQblKABXQYRGsiTI2vQW24ATW4SG88DKAwFi7FB7PjZGsG+G6va7hsA30JWG8qCaqvOwwuALUEKG8I3jmPA0hsA75yTGcnsP6PT/o8AzykcG80wwyPLQkBBbgCJGs8Qw1vuJ88A/1SQGMw98Dw0kpxA3k/NGciXj/vvFl2AbmZbG8RlbAw result_proc0014_0700
+LWpU+AvAkCG87848PZpGBBjF73FMB+1CQpWMHBDvH3Fs2M7CQU0qJBL5V4F8o5KHQVxu9Af1chFsSnYCQfOmyAD7bhFchUCDQRnE6A7NN+F8N751PZze/A3d8+F8oTmGQFXx/A3K0aFMyF+8P+isABT/QXF8vKaFQJW6wALSfUF8bI7EQ result_proc0014_0700
+LyllJBb4D1Fcjpa8Pj/YPBrUtzFcmce7P1JeRBfQVBGcp4MrP4qTWBPwlCG8XphjPD8GRBHs5cFcRb94P0V+PBvouMFsGR4AQ7/UTBjKqQF8qxrFQXWVSB3Q+AFc4m7IQBuoOBv1HDF8343KQ63nLBHFWUFMtx9KQAeCOBrr6zEsh4rMQ/DVHBDja0FM5tczP8JKRBvZa4FMUDjBQsDFPBvUbXFM4jBmPROZVBbmjcF8yfu2PuGyLBXhyNF85fDCQ5d0QBnLp8EMTE1+PoliXBf9yPFc4ilEQcqcSBfhegFcddSHQ4ykUBbHgzEcLT7IQMHFMB/99fFMAHlJQbi2IBrL9VFcl6aMQywWQBnFrmEMwWnMQ7ORLBjuh1E8C+IOQ result_proc0014_0700
+L6lyNBfGSGGsNJOsvXmPPBPzNNG8CU+7v+LZSBjv6WGcbFJ4vycpRBrFraGsEHbdPmfpVBXp/aGMfq59vjuPKBPL/QG83r9Aw8G6FBnNhZGMNJG6voAMABjRaRG8KzJ2vvp4JBz0NFG8MsQivX8uRBz1qIGs1HwAwPLbLBrKYVG8jviEwZb7HBHWEKGsbRQCw result_proc0014_0700
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    10.448     -7.347      1.101      6.822           0.035                  0.830         -0.606     -1.307        0.000          0.000          0.000         -0.680       0.000        0.000                   0.982                    0.000               0.097                  2.053                      0.000      0.805      3.689     -0.107            0.000      2.870         0.000          1.210                  0.000 .00      1.295          0.000                     1.000 result_proc0011_0486
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0011_0486
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LLj7wAT7PMGskIsfPJ0A7ALHBSG8zzmrPGrp/ALbWOG8kBU9PuUXCBHOhUG8Y7pBQAqSBB3JxPGMbUl0vlhb9AfVtSGMCyWAwFMVHB/qrXG8mBRzvJ7wtAXRpOGMzd7zvPmXyA3oYEGssn3aPmDzrAHqyNG86v11P4Ga5A/uiaGMz8htPBUjCBvxVHG8TlE1vQxiBBLI2QGc9zuDwNoJ2A7WHOGMbTGBwa2g7A3NVbGMVkVAw result_proc0011_0486
+LN5R+An8lDGswfOAQso3BB7jX+FMap4EQhfrHB7BF5FcvQnDQPkGLBL3J5FsCzJHQZLA+APicqF8Tp0GQ8Gf+AnmIaF8ED/CQU+Y5Avnp9F8QnI8P3wzBBr9JFGszICIQAg0ABrz8kF8XNRJQPar1AjKSuFsejrHQasa9AvG/MFcdf5EQ result_proc0011_0486
+LPMxIBLRf0FswEF9PQEOOBfydwFcUEd5PhvXPBjeD8FMcKIgvIyuOBzgAzF8R3q5v7UKPBrZmYF8mu63Pjk6OBLdcLFMltFBQnpjTB310PFszeoEQB0jTBvHGCFMnfqIQaHFRB7mvGFsgB/KQlBbOBnAyYF8nJPLQFcURBD4K5EMvgANQ5fvFB3IxzFMple3Pv2+QBf/W2Fcpyh/PmBMMBPrKSFMI22pPzVFTB7TCWFsZevwPSARLBX2UPFsHURDQkI7OBvXd6EMovFAQ0gQXBzDENFM89bCQhuaTBvnZgFM6S+FQoEkVBrgE0EMg+iIQ9TPOBzEKjFMzKsJQBGkMB78QcF8hd+MQAPXTB3KTrEMEH0MQzkdPBXsp8EcowvOQ result_proc0011_0486
+L1qERBD9DIGsjQRLviafRBrJDPG89le5vRG/TBrzwZG8c/A1viaZTBnCjdGMm5BqPb+jWBfqneGMbX/8vgx+LBjm9QGMKVb+vBuTHBLspXGsDLRzvkLUBB/GzPGcxDl0vUpGSBnE7KGsG/L2PAzBUBbdKLGMWSa/vu3ZMBvlyVGsoh0Cwy0OKBPMVJGsS9YAw result_proc0011_0486
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    12.243     -7.350      0.749      7.583           0.042                  0.901         -0.760     -0.300        0.000          0.000          0.000         -0.677       0.000        0.000                   0.984                    0.000               0.277                  2.670                      0.000     -0.010      5.414     -0.341            0.000      2.870         0.000          0.190                  0.000 .00      1.223          0.000                     1.000 result_proc0011_0182
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0011_0182
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LnhdwA7q2MGcfhqgP8An6AfRtSGMCDBpPdxFABjY3OGcUaI8Phq7CBvW6UGMJM2AQo3rABz9wQG8bsO3vEq+6AvI2RGcXe2AwoEWGBzTmZGcr/S5vYJrsAfbXPGsDHAzvUA9xAfLBFGcZtEXPqe2rATgMOGcrt92Pld94AzrMbGs1RTsPMeTCBThmIG8RSG2vRADABHAhPG81fXEwaQC0AnBjMGMdF5AwoUT4AjFOaG8a/RBw result_proc0011_0182
+LZlA/A7GFEGcnZQ/P3cCCB3G0/FMmucEQBwzHBniR5FMG8XDQOxDLBL+43F8coDHQd309Afa0sFMB/jGQNzX+Af7gbF8/lADQo5i6A7zP+Fc1is6P58CCB//LGG8fpeHQMygABLDFoF8KFOJQ/Rg1AL0ZxFcrHKHQB1I/ATh9OF87JMFQ result_proc0011_0182
+LCvDJB76Q1F8IPn8PATcOBDC3uF8LVe5PJqYQBvat7FMRp2HvQ9VTBrojzFcTEu1v9tmOB7DIXFcCOk1PgSjNBLRQIFcQnFAQPy8RBjRDJFcH8EEQF5ERBjZJ6Es4nOIQZfTOBPvs+EMk9dKQPsKMBzCwRFsxIyKQx/uNBXuAwEcbSWMQoINGBXJs2F8P831PF0IRB/p0xF8OcFAQZ4oLB7bnTF8ANYaPCJhSBjOETFsSoDuPuQ2JBjQ8MFsxdECQhRMNBjR23Ec9pS9P43tVBTv7EFsLGJCQ5VOSBH8HZFcOYvFQPUqSBrhUrE8bvDIQmlmMBPm+cFcLKWJQjvFKBPYKVFstjdMQRMYPB7GXhEMhxGMQ4HqLB77azEcfpBOQ result_proc0011_0182
+LSJtOBXD7HGMYJQbvMyLQBTn3OGciCm5vHEzSBPiIZGsfCPzvRHmRBDC9cGsEmisPanEWBfKmdGsLTC7vBURLBPurRGc/6JAwZpUGBfPkZG8wXS5vzRtABrKzQG83hP3vT9VMBLt1KGcOXVyPwECTBftnKGMEhp+vS2gMB7YJWG8gIsDwbWWJBzvWKGsJ3hBw result_proc0011_0182
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    12.896     -7.337      0.737      7.641           0.043                  0.900         -0.719      0.256        0.000          0.000          0.000         -0.643       0.000        0.000                   0.982                    0.000               0.105                  2.441                      0.000      0.019      5.723     -0.285            0.000      2.870         0.000          0.163                  0.000 .00      1.106          0.000                     1.000 result_proc0011_0043
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0011_0043
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LMYwvA/BNOGc9pWkP0rX6A7kMTGsf+OqPoMy/AP21OGMRyT8P0dbCBDCtUGMCgTBQunYAB/oxQGsw942vAd85ALIKSG8nnmAwC0/FB38rZGsIdV5v4bEsA/EERGcHI6xvTolwA7rRGG8wFydPZ1YrAP53PGclQC4PKFc5AnbybG8PA1tPEOBCB/1mIGcmtj2vWJw+A3HEQGsXxQEwTpAzA3N2MGMC+kAwiQO3ADHjaG8W51Aw result_proc0011_0043
+LNAL/ADgxDGcY6c+PAX5BBnMR+F8VWDEQ6EwHBnJb4FcGcNDQsWzKB/5b2F8vuCHQW0h9ADClqFcZXtFQOXW+A3jbaF8a71BQv7b7Ajf49FszWK5Pk0qBBz6CFGM2SQHQlaRABfVtkF8Z1wIQn8J1AnP1uFctxRGQDpe8ADHWNF8q9nDQ result_proc0011_0043
+LlCTJBTDs1Fs97V8P0vwOBfnkvFs9Yp5Pm3/QBzSn9FcqC9bP9IPVB3cB5FsgX1uvdV/OB7jPYF88JZ0P4XpNBLAMIF81k7+PTjxRBDd8HFs0QvDQNwkQB/TP4EMn72HQ28sNBL/R8E83wJKQqLxLBDFjPFcNvkKQ8E1MBfE4sE88O6LQ1lnGB7w53F8Tyy0P+MQRBbfkxFM7kXAQleNMBbcoVFcO7SUvpa/SBXchUFci6FtPuR0JBLyWMFM2cRBQ3dZNB7IM4E8Q2e7PmjpVBbWAEFsYQACQC0+RBDopXFcndnFQKt/RBbdOpEcnZWHQH5bMBLuUbFc8wOJQ+bnJBz7kSFcOYPMQJQUOBj2DeEccflLQOarKBP05vEsH0kNQ result_proc0011_0043
+LS6HOBv+XHGs7HemvlCsPBr1eOGccxg6vC8kSBTBWYGsWvk0vsxiRBDs9bGcfoiqPX/5VBnprcGM7Gr7vqgyKB7M/RGcbDeAw9b+FB3wpZGch4U5vLBaAB33zQGsW552v9KxKBXZAJGMsripPO0YSBnoJKGceP0/v2KEMBzj1WG8cM3DwIowIBrY9KGcS9DCw result_proc0011_0043
+SEQUENCE: XSRC
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13    atom_pair_constraint    coordinate_constraint    angle_constraint    dihedral_constraint    metalbinding_constraint      omega     fa_dun    p_aa_pp    yhh_planarity        ref    chainbreak    rama_prepro    res_type_constraint           RMSD    HBOND_COUNT    CIS_PEPTIDE_BOND_COUNT          description
+REMARK BINARY SILENTFILE
+SCORE:    13.637     -7.217      0.755      7.354           0.048                  0.882         -0.689      1.109        0.000          0.000          0.000         -0.637       0.000        0.000                   0.983                    0.000               0.156                  2.566                      0.000      0.039      4.706      0.134            0.000      2.870         0.000          0.579                  0.000 .00      0.905          0.000                     1.000 result_proc0011_0222
+REMARK PDBinfo-LABEL:    1 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    2 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    3 PEPTIDE_STUB_EXTENSION
+REMARK PDBinfo-LABEL:    4 PEPTIDE_STUB_EXTENSION
+ANNOTATED_SEQUENCE: X[DDBR:NtermProteinFull:C-conjugated]SRC[CYS:CtermProteinFull:SidechainConjugation] result_proc0011_0222
+NONCANONICAL_CONNECTION: 4  SG  1  CB 
+LEt2vALhwRG8yn0sP6lW7AnOOUGs/BJvPczIAB3JtNGcgni8PkDCDBzgzRGcnayBQkLNABHfrRGcSF31vvhr4AvljTGMNs5/vHx/FBvOuZGsdqH6vaSfsAj6EWGsSigqvkf3uAfI+JG8D6SlPMmYsAfMjTGcZ/L6Pv5Z8A3lpcG87FPzPYBiBBPgSJGM1pF2vGPf8APSGRG8nv1DwDvaxAD4xOG8etC/vUaj2AXEIcGscFFAw result_proc0011_0222
+L9aW+AjdlCG8F+28PxMHBBDr43F89H0CQD6MHBHfG3F8y/5CQ36qJB3WW4F8Y7JHQ2kw9AnkahFclrUCQz9nyAPdXhFsUG+CQ+lL6Ab2R+Fcnnt1Pv2e/Ar30+Fc13kGQgwz/AHo3aFcBL18PQctABH6KXFMqbVFQLFzwA7VTTFM/4NEQ result_proc0011_0222
+LwpmJBTsB1Fs2zY8PnKaPBj4vzFcHsd7PZ7eRBb0WBG8WTJrP8WUWBb0qCGs0YrjP4aJRB/W9cF8Mw94Pd1AQBDMyMFcBa4AQaBXTBDPvQFcoKsFQRMXSB35DBFMR27IQXKqOBbZNDF8K83KQ5DpLBPAbUFcSl9KQtxDOBzyA0Esw/rMQUcWHB3PU0Fs6YYzPVvKRBzef4FcAwiBQVbIPBL1cXF8gg/lP42bVB/aqcFMnIy2P4e0LBPp0NFMMTDCQGc3QBT8s8EsOn1+P8tkXBzo4PFsQUmEQxWeSBztjgFs5lSHQv0mUBLQmzEcgu7IQyZGMB/dCgFMl3kJQRb3IBzCCWFsGlaMQDRYQB7rxmEMEqnMQfPSLBrxn1EMO8IOQ result_proc0011_0222
+L/HzNBH9PGGslubsvi5PPBDVNNGchjA8vxYaSBDm4WGMsDK4v/jrRBTEnaGsS0cdPGhqVBz/9aG8or69va0PKBvUBRGsnn9AwGW+FB7TsZGcguG6vSoOABvftRG8dr41vUK5JB7lHFGMCCCjvfiuRBzArIGM0IyAwq8aLBrQVVGc/TkEwOA5HB71HKGs8ZNCw result_proc0011_0222
+

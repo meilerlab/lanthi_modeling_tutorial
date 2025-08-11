@@ -1,0 +1,63 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+    	<ScoreFunction name="r15" weights="ref2015"/>
+    	<ScoreFunction name="r15_cst" weights="ref2015_cst"/>
+    	<ScoreFunction name="r15_cart" weights="ref2015_cart_cst"/>
+    </SCOREFXNS>
+    <RESIDUE_SELECTORS>
+        Index name="peptide" resnums="%%start%%-%%end%%"/>
+        <Chain name="peptide" chains="A"/>
+        <Index name="lan1" resnums="3,7"/>
+        <Index name="ring1" resnums="3-7"/>
+        <Index name="lan2" resnums="12,16"/>
+        <Index name="ring2" resnums="12-16"/>
+    </RESIDUE_SELECTORS>
+    <TASKOPERATIONS>
+        <IncludeCurrent name="incl_curr" />
+        <RestrictToRepacking name="rtrp"/>
+    </TASKOPERATIONS>
+    <SIMPLE_METRICS>
+        <TotalEnergyMetric name="cst_eng" scorefxn="r15_cst" scoretype="atom_pair_constraint" />
+        <TotalEnergyMetric name="eng_no_cst" scorefxn="r15" />
+        <SasaMetric name="SASA" />
+        <TotalEnergyMetric name="ring1_eng" scorefxn="r15_cst" scoretype="total_score" residue_selector="ring1"/>
+        <PeptideInternalHbondsMetric name="ring1_hbond" residue_selector="ring1"/>
+        <TotalEnergyMetric name="ring2_eng" scorefxn="r15_cst" scoretype="total_score" residue_selector="ring2"/>
+        <PeptideInternalHbondsMetric name="ring2_hbond" residue_selector="ring2"/>
+    </SIMPLE_METRICS>
+    <MOVERS>
+        <CrosslinkerMover name="cyclize1" linker_name="lanthionine"
+            residue_selector="lan1" scorefxn="r15_cst"
+            filter_by_constraints_energy="false"
+            filter_by_sidechain_distance="false"
+            pack_and_minimize_linker_and_sidechains="true"
+        />
+        <CrosslinkerMover name="cyclize2" linker_name="lanthionine"
+            residue_selector="lan2" scorefxn="r15_cst"
+            filter_by_constraints_energy="false"
+            filter_by_sidechain_distance="false"
+            pack_and_minimize_linker_and_sidechains="true"
+        />
+        <FastRelax name="init_frlx" repeats="5" scorefxn="r15_cst" min_type="dfpmin" task_operations="incl_curr" />
+        RemoveConstraints name="rm_coord_cst" constraint_generators="coord_cst"/>
+        <ClearConstraintsMover name="rm_cst"/>
+        <MinMover name="cart_min" cartesian="true" bondlength="0" bondangle="1" bb="false" omega="false" chi="true" scorefxn="r15_cart" />
+
+    </MOVERS>
+    <APPLY_TO_POSE>
+    </APPLY_TO_POSE>
+    <PROTOCOLS>
+        <Add mover="cyclize1" />
+        <Add mover="cyclize2" />
+        <Add mover="init_frlx" />
+        <Add mover="rm_cst" />
+        <Add mover="rm_cst" />
+        <Add mover="cyclize1" />
+        <Add mover="cyclize2" />
+        <Add mover="cart_min" />
+        <Add metrics="SASA" labels="SASA"/>
+        Add metrics="run_metrics" labels="run_metrics"/>
+        <Add metrics="eng_no_cst" labels="eng_no_cst" />
+    </PROTOCOLS>
+    <OUTPUT scorefxn="r15_cst" />
+</ROSETTASCRIPTS>

@@ -1,0 +1,22 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+    	<ScoreFunction name="r15" weights="ref2015"/>
+    	<ScoreFunction name="r15_cst" weights="ref2015_cst"/>
+    </SCOREFXNS>
+    <RESIDUE_SELECTORS>
+        <Chain name="peptide" chains="A"/>
+    </RESIDUE_SELECTORS>
+    <TASKOPERATIONS>
+    </TASKOPERATIONS>
+    <SIMPLE_METRICS>
+        <RMSDMetric name="calc_rmsd_bb" residue_selector="peptide" rmsd_type="rmsd_protein_bb_heavy_including_O" use_native="true" super="true"/>
+    </SIMPLE_METRICS>
+    <MOVERS>
+    </MOVERS>
+    <APPLY_TO_POSE>
+    </APPLY_TO_POSE>
+    <PROTOCOLS>
+        <Add metrics="calc_rmsd_bb" labels="rmsd_bb"/>
+    </PROTOCOLS>
+    <OUTPUT scorefxn="r15_cst" />
+</ROSETTASCRIPTS>

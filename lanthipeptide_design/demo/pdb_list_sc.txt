@@ -1,0 +1,2 @@
+PDB
+C05_H7_WT_trunc/C05_H7_WT_trunc_0015.pdb

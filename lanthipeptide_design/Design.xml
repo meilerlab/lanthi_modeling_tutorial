@@ -1,0 +1,183 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+	<ScoreFunction name="r15" weights="ref2015"/>
+	<ScoreFunction name="r15_cst" weights="ref2015_cst"/>
+        <ScoreFunction name="r15_cart" weights="ref2015_cart_cst"/>
+
+        <ScoreFunction name="r15_highhbond_aacomp_cst" weights="ref2015_cst.wts" >
+            <Reweight scoretype="hbond_sr_bb" weight="10.0" />
+            <Reweight scoretype="hbond_lr_bb" weight="10.0" />
+            <Reweight scoretype="hbond_bb_sc" weight="5.0" />
+            <Reweight scoretype="hbond_sc" weight="3.0" />
+            <Reweight scoretype="fa_elec" weight="2.0" />
+            <Reweight scoretype="aa_composition" weight="1.0" />
+        </ScoreFunction>
+
+    </SCOREFXNS>
+    <RESIDUE_SELECTORS>
+	<Index name="lan1" resnums="268,277"/> 
+	<Chain name="select_peptide" chains="2"/> 
+	<Not name="select_target" selector="select_peptide"/> 
+	<Logic name="select_design_positions" selectors="select_peptide and not lan1"/>
+        <Neighborhood name="select_interface" selector="select_peptide" distance="10.0" />
+        <Not name="select_not_interface" selector="select_interface" />
+        <And name="select_target_far_from_interface"
+            selectors="select_not_interface,select_target"
+        />
+
+        <Phi name="select_neg_phi" select_positive_phi="false" />
+        <Not name="select_pos_phi" selector="select_neg_phi" />
+        <And name="select_L_positions" selectors="select_design_positions,select_neg_phi" />
+        <And name="select_D_positions" selectors="select_design_positions,select_pos_phi" />
+        <Bin name="select_L_alpha" bin_params_file="ABBA.bin_params" bin="A" />
+        <Bin name="select_L_beta" bin_params_file="ABBA.bin_params" bin="B" />
+    </RESIDUE_SELECTORS>
+    <PACKER_PALETTES>
+    </PACKER_PALETTES>
+    <TASKOPERATIONS>
+	<IncludeCurrent name="incl_curr" />
+	<RestrictToRepacking name="rtrp"/>
+
+        <OperateOnResidueSubset name="no_design_target" selector="select_target" >
+            <RestrictToRepackingRLT />
+        </OperateOnResidueSubset>
+
+
+        <OperateOnResidueSubset name="no_design_conn" selector="lan1" >
+            <RestrictToRepackingRLT />
+        </OperateOnResidueSubset>
+
+        # Don't design with cysteine
+        <ProhibitSpecifiedBaseResidueTypes name="no_cys" base_types="CYS,TYR,SER"
+            selector="select_peptide"
+        />
+        <ProhibitSpecifiedBaseResidueTypes name="no_gly" base_types="GLY"
+            selector="select_L_positions"
+        />
+
+        <OperateOnResidueSubset name="no_repack_target_far_from_interface"
+            selector="select_target_far_from_interface"
+        >
+            <PreventRepackingRLT />
+        </OperateOnResidueSubset>
+
+    </TASKOPERATIONS>
+    <SIMPLE_METRICS>
+        <SapScoreMetric name="sap" score_selector="select_peptide" />
+    </SIMPLE_METRICS>
+    <FILTERS>
+
+        <ShapeComplementarity name="shape3" min_sc="0.5" min_interface="150" jump="1" />
+
+        <ContactMolecularSurface name="contactsurface" min_interface="0" binder_selector="select_peptide" target_selector="select_target" />
+
+        <OversaturatedHbondAcceptorFilter name="oversat" scorefxn="r15"
+            max_allowed_oversaturated="0" consider_mainchain_only="false" acceptor_selector="select_interface or select_peptide"
+        />
+
+        <PeptideInternalHbondsFilter name="total_hbonds" hbond_cutoff="3"
+            exclusion_distance="1" residue_selector="select_peptide"
+        />
+
+        <Ddg name="ddg_filter" threshold="1000" repeats="3" jump="1" scorefxn="r15"/>
+
+        <Sasa name="interface_buried_sasa" confidence="0"/>
+
+        <Sasa name="interface_hydrophobic_sasa" confidence="0" hydrophobic="True"/>
+
+        <Sasa name="interface_polar_sasa" confidence="0" polar="True"/>
+
+        <BuriedUnsatHbonds name="new_buns_bb_heavy"  ignore_surface_res="true" report_bb_heavy_atom_unsats="true" scorefxn="ref" confidence="0" print_out_info_to_pdb="true" />
+
+        <BuriedUnsatHbonds name="new_buns_sc_heavy" ignore_surface_res="true" report_sc_heavy_atom_unsats="true" scorefxn="ref" confidence="0" print_out_info_to_pdb="true" />
+
+
+    </FILTERS>
+    <MOVERS>
+	<MutateResidue name="mutate1" target="268" new_res="DALA"/>
+	<MutateResidue name="mutate2" target="277" new_res="CYS"/>
+	<CrosslinkerMover name="cyclize1" linker_name="lanthionine"
+        residue_selector="lan1" scorefxn="r15"
+        filter_by_constraints_energy="false"
+        filter_by_sidechain_distance="false"
+        pack_and_minimize_linker_and_sidechains="true"
+        />
+        <FastRelax name="init_frlx" repeats="1" scorefxn="r15_cst" min_type="dfpmin" task_operations="incl_curr,no_repack_target_far_from_interface" >
+            <MoveMap name="movemap" >
+                <Span begin="1" end="999" chi="1" bb="0" />
+                <Span begin="268" end="277" chi="1" bb="1" />
+            </MoveMap>
+	</FastRelax>
+        <FastRelax name="ring_frlx" repeats="2" scorefxn="r15_cst" min_type="dfpmin" task_operations="incl_curr,no_repack_target_far_from_interface" >
+            <MoveMap name="movemap" >
+                <Span begin="1" end="999" chi="1" bb="0" />
+                <Span begin="268" end="269" chi="1" bb="1" />
+                <Span begin="276" end="277" chi="1" bb="1" />
+            </MoveMap>
+	</FastRelax>
+        <DeclareBond name="add_termini" add_termini="true" atom1="C" atom2="N" res1="1" res2="2" />
+
+        <FastDesign name="fdes" repeats="3" scorefxn="r15_highhbond_aacomp_cst" 
+            min_type="dfpmin"
+            task_operations="incl_curr,no_design_conn,no_cys,no_gly,no_design_target,no_repack_target_far_from_interface"
+        > #disable_design="false" no_design_target,no_repack_target_far_from_interface
+            <MoveMap name="fdes_mm" >
+                <Span begin="1" end="999" chi="1" bb="0" />
+                <Span begin="268" end="277" chi="1" bb="1" />
+            </MoveMap>
+        </FastDesign>
+
+
+        # FastRelax performs alternating rounds of side chain packing and minimization,
+        # keeping sequence fixed but ramping repulsive terms in the scoring function.  It
+        # is used for final structural refinement:
+        <FastRelax name="final_frlx" repeats="3" scorefxn="r15_cst" min_type="dfpmin"
+            task_operations="incl_curr,no_repack_target_far_from_interface"
+        >
+            <MoveMap name="final_frlx_mm" >
+                <Span begin="1" end="999" chi="1" bb="0" />
+                <Span begin="276" end="277" chi="1" bb="1" />
+            </MoveMap>
+        </FastRelax>
+
+        <AddCompositionConstraintMover name="global_comp"
+            filename="comp/global_preferences.comp" selector="select_design_positions" />
+        <AddCompositionConstraintMover name="L_alpha_comp"
+            filename="comp/L_alpha_preferences.comp" selector="select_L_alpha" />
+        <AddCompositionConstraintMover name="L_beta_comp"
+            filename="comp/L_beta_preferences.comp" selector="select_L_beta" />
+        <AddCompositionConstraintMover name="D_comp"
+            filename="comp/D_preferences.comp" selector="select_D_positions" />
+
+        <FilterReportAsPoseExtraScoresMover name="dg_des"  report_as="ddg_des"  filter_name="ddg_filter" />
+	
+    </MOVERS>
+    <APPLY_TO_POSE>
+    </APPLY_TO_POSE>
+    <PROTOCOLS>
+	<Add mover="mutate1" />
+	<Add mover="mutate2" />
+	<Add mover="add_termini" />
+	<Add mover="cyclize1" />
+	<Add mover="ring_frlx" />
+	<Add mover="init_frlx" />
+        <Add mover="global_comp" />
+        <Add mover="L_alpha_comp" />
+        <Add mover="L_beta_comp" />
+        <Add mover="D_comp" />
+	<Add mover="fdes" />
+	<Add mover="final_frlx" />
+        <Add filter="oversat" />
+        <Add filter="total_hbonds" />
+        <Add filter="shape3" />
+        <Add filter="contactsurface" />
+        <Add filter="new_buns_bb_heavy"/>
+        <Add filter="new_buns_sc_heavy"/>
+        <Add filter="interface_buried_sasa"/>
+        <Add filter="interface_hydrophobic_sasa"/>
+        <Add filter="interface_polar_sasa"/>
+        <Add mover_name="dg_des"/>
+        <Add metrics="sap" labels="sap"/>
+    </PROTOCOLS>
+    <OUTPUT scorefxn="r15_cst" />
+</ROSETTASCRIPTS>
