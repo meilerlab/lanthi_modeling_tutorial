@@ -10,9 +10,9 @@ three_convert = {'CYS': 'CYS', 'ASP': 'ASP', 'SER': 'SER', 'GLN': 'GLN', 'LYS': 
                  'ILE': 'ILE', 'PRO': 'PRO', 'THR': 'THR', 'PHE': 'PHE', 'ASN': 'ASN', 
                  'GLY': 'GLY', 'HIS': 'HIS', 'LEU': 'LEU', 'ARG': 'ARG', 'TRP': 'TRP', 
                  'ALA': 'ALA', 'VAL':'VAL', 'GLU': 'GLU', 'TYR': 'TYR', 'MET': 'MET',
-                 'DCYS': 'DCYS', 'DAS': 'DASP', 'DSE': 'DSER', 'DGN': 'DGLN', 'DLY': 'DLYS',
+                 'DCY': 'DCYS', 'DAS': 'DASP', 'DSE': 'DSER', 'DGN': 'DGLN', 'DLY': 'DLYS',
                  'DIL': 'DILE', 'DPR': 'DPRO', 'DTH': 'DTHR', 'DPH': 'DPHE', 'DAN': 'DASN', 
-                 'DHIS': 'DHIS', 'DLE': 'DLEU', 'DAR': 'DARG', 'DTRP': 'DTRP', 
+                 'DHI': 'DHIS', 'DLE': 'DLEU', 'DAR': 'DARG', 'DTR': 'DTRP', 
                  'DAL': 'DALA', 'DVA': 'DVAL', 'DGU': 'DGLU', 'DTY': 'DTYR', 'DME': 'DMET',
                  'DBS': 'DBS', 'DBR': 'DBR', 'DBU': 'DBU', 'DHA': 'DHA'}
 out_seq = ''

@@ -15,8 +15,8 @@
 
     </SCOREFXNS>
     <RESIDUE_SELECTORS>
-	<Index name="lan1" resnums="268,277"/> 
-	<Chain name="select_peptide" chains="2"/> 
+	<Index name="lan1" resnums="%%dala_pos%%,%%cys_pos%%"/> 
+	<Chain name="select_peptide" chains="%%pep_chain%%"/> 
 	<Not name="select_target" selector="select_peptide"/> 
 	<Logic name="select_design_positions" selectors="select_peptide and not lan1"/>
         <Neighborhood name="select_interface" selector="select_peptide" distance="10.0" />
@@ -67,7 +67,7 @@
     </SIMPLE_METRICS>
     <FILTERS>
 
-        <ShapeComplementarity name="shape3" min_sc="0.5" min_interface="150" jump="1" />
+        <ShapeComplementarity name="shape3" min_sc="%%interface_shape_min%%" min_interface="150" jump="1" />
 
         <ContactMolecularSurface name="contactsurface" min_interface="0" binder_selector="select_peptide" target_selector="select_target" />
 
@@ -75,7 +75,7 @@
             max_allowed_oversaturated="0" consider_mainchain_only="false" acceptor_selector="select_interface or select_peptide"
         />
 
-        <PeptideInternalHbondsFilter name="total_hbonds" hbond_cutoff="3"
+        <PeptideInternalHbondsFilter name="total_hbonds" hbond_cutoff="%%pep_hbond_min%%"
             exclusion_distance="1" residue_selector="select_peptide"
         />
 
@@ -94,8 +94,8 @@
 
     </FILTERS>
     <MOVERS>
-	<MutateResidue name="mutate1" target="268" new_res="DALA"/>
-	<MutateResidue name="mutate2" target="277" new_res="CYS"/>
+	<MutateResidue name="mutate1" target="%%dala_pos%%" new_res="DALA"/>
+	<MutateResidue name="mutate2" target="%%cys_pos%%" new_res="CYS"/>
 	<CrosslinkerMover name="cyclize1" linker_name="lanthionine"
         residue_selector="lan1" scorefxn="r15"
         filter_by_constraints_energy="false"
@@ -105,14 +105,14 @@
         <FastRelax name="init_frlx" repeats="1" scorefxn="r15_cst" min_type="dfpmin" task_operations="incl_curr,no_repack_target_far_from_interface" >
             <MoveMap name="movemap" >
                 <Span begin="1" end="999" chi="1" bb="0" />
-                <Span begin="268" end="277" chi="1" bb="1" />
+                <Span begin="%%dala_pos%%" end="%%cys_pos%%" chi="1" bb="1" />
             </MoveMap>
 	</FastRelax>
         <FastRelax name="ring_frlx" repeats="2" scorefxn="r15_cst" min_type="dfpmin" task_operations="incl_curr,no_repack_target_far_from_interface" >
             <MoveMap name="movemap" >
                 <Span begin="1" end="999" chi="1" bb="0" />
-                <Span begin="268" end="269" chi="1" bb="1" />
-                <Span begin="276" end="277" chi="1" bb="1" />
+                <Span begin="%%dala_pos%%" end="%%dala_pos_plus1%%" chi="1" bb="1" />
+                <Span begin="%%cys_pos_min1%%" end="%%cys_pos%%" chi="1" bb="1" />
             </MoveMap>
 	</FastRelax>
         <DeclareBond name="add_termini" add_termini="true" atom1="C" atom2="N" res1="1" res2="2" />
@@ -123,7 +123,7 @@
         > #disable_design="false" no_design_target,no_repack_target_far_from_interface
             <MoveMap name="fdes_mm" >
                 <Span begin="1" end="999" chi="1" bb="0" />
-                <Span begin="268" end="277" chi="1" bb="1" />
+                <Span begin="%%dala_pos%%" end="%%cys_pos%%" chi="1" bb="1" />
             </MoveMap>
         </FastDesign>
 
@@ -136,7 +136,7 @@
         >
             <MoveMap name="final_frlx_mm" >
                 <Span begin="1" end="999" chi="1" bb="0" />
-                <Span begin="276" end="277" chi="1" bb="1" />
+                <Span begin="%%dala_pos%%" end="%%cys_pos%%" chi="1" bb="1" />
             </MoveMap>
         </FastRelax>
 

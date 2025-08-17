@@ -8,7 +8,7 @@ echo $HOST $HOSTNAME
 #############################
 
 # Global variables
-ROSETTA=/home/tydingcw/Rosetta/rosetta/source/bin/simple_cycpep_predict.linuxgccrelease
+ROSETTA=source/bin/simple_cycpep_predict.linuxgccrelease
 
 # Input variables
 SEQ=sequence.txt #`readlink -e $1`
@@ -17,12 +17,10 @@ NATIVE=2KTO_1_rename_ring4.pdb #`readlink -e $3`
 LOG=2KTO_ring4.log #$4
 NP=4
 NSTRUCT=100
-#MPI=/dors/meilerlab/apps/Linux2/x86_64/mpich2/3.2.1/bin/mpirun
-MPI=/sb/apps/mpich2/Linux2/1.4.1p1/x86_64/bin/mpirun
 
 mkdir -p outputs/
 
-$ROSETTA \
+${ROSETTA_LOC}/$ROSETTA \
 -in:file:native $NATIVE \
 -nstruct $NSTRUCT \
 -sequence_file $SEQ \

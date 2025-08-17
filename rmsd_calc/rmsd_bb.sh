@@ -1,14 +1,13 @@
 #!/bin/bash
 
 #Rosetta version
-#ROSETTA=/home/tydingcw/Rosetta/main/source/bin/rosetta_scripts.linuxgccrelease
-ROSETTA=/home/tydingcw/Rosetta/rosetta/source/bin/rosetta_scripts.default.linuxgccrelease
+ROSETTA=source/bin/rosetta_scripts.default.linuxgccrelease
 
 BASE=$1
 NATIVE=$2
 SCORE=$3
 
-$ROSETTA -in:file:l ${BASE} \
+${ROSETTA_LOC}/$ROSETTA -in:file:l ${BASE} \
 -in:file:native $NATIVE \
 -nstruct 1 \
 -parser:protocol rmsd_bb.xml \
@@ -18,7 +17,8 @@ $ROSETTA -in:file:l ${BASE} \
 -linmem_ig 10 \
 -out:file:score_only $SCORE \
 -in:detect_disulf false \
--in:file:extra_res_path ../ncaa_params/
+-in:file:extra_res_path ../ncaa_params/ \
+-no_nstruct_label
 
 #-mute all \
 

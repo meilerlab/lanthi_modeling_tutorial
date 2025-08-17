@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Global variables
-ROSETTA=/home/tydingcw/Rosetta/rosetta/source/bin/rosetta_scripts.torch.linuxgccrelease
+ROSETTA=source/bin/rosetta_scripts.torch.linuxgccrelease
 
 # Input variables
 XML=Design_MPNN.xml
@@ -11,7 +11,7 @@ INPUT=C05_H7_WT_10mer_trunc_0015_0003.pdb
 mkdir -p outputs/
 
 # Run
-$ROSETTA \
+${ROSETTA_LOC}/$ROSETTA \
 -parser:protocol $XML \
 -in:file:s $INPUT \
 -use_input_sc true \
@@ -23,5 +23,7 @@ $ROSETTA \
 -in:detect_disulf \
 -out:prefix $PREFIX \
 -out:file:scorefile Designed_mpnn_lanthi.sc \
+-parser:script_vars cys_pos="277" dala_pos="268" cys_pos_min1="276" dala_pos_plus1="269" \
+-parser:script_vars interface_shape_min="0.5" pep_hbond_min="3" pep_chain="2" \
 -ignore_waters false
 

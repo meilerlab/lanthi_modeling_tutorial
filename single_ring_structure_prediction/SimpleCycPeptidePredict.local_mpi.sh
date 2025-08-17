@@ -8,7 +8,7 @@ echo $HOST $HOSTNAME
 #############################
 
 # Global variables
-ROSETTA=/home/tydingcw/Rosetta/rosetta/source/bin/simple_cycpep_predict.mpi.linuxgccrelease
+ROSETTA=source/bin/simple_cycpep_predict.mpi.linuxgccrelease
 
 # Input variables
 SEQ=sequence.txt #`readlink -e $1`
@@ -17,12 +17,12 @@ NATIVE=2KTO_1_rename_ring4.pdb #`readlink -e $3`
 LOG=2KTO_ring4_mpi.log #$4
 NP=16
 NSTRUCT=10000
-#MPI=/dors/meilerlab/apps/Linux2/x86_64/mpich2/3.2.1/bin/mpirun
-MPI=/sb/apps/mpich2/Linux2/1.4.1p1/x86_64/bin/mpirun
+#Make sure mpirun is in your path or specify the path to it
+MPI=mpirun
 
-#mkdir -p outputs/
+mkdir -p outputs/
 
-$MPI -np $NP $ROSETTA \
+$MPI -np $NP ${ROSETTA_LOC}/$ROSETTA \
 -in:file:native $NATIVE \
 -out:file:silent $OUTPUT \
 -nstruct $NSTRUCT \
@@ -48,7 +48,7 @@ $MPI -np $NP $ROSETTA \
 -mute all \
 -unmute protocols.cyclic_peptide_predict.SimpleCycpepPredictApplication_MPI protocols.cyclic_peptide_predict.SimpleCycpepPredictApplication_MPI_summary \
 -in:file:extra_rot_lib_path /dors/meilerlab/apps/rosetta/ \
--in:file:extra_res_path ../../ncaa_params/ \
+-in:file:extra_res_path ../ncaa_params/ \
 > $LOG
 
 #-cyclic_peptide:exclude_residues_from_rms 1 \
