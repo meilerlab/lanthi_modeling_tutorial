@@ -8,7 +8,7 @@ echo $HOST $HOSTNAME
 #############################
 
 # Global variables
-ROSETTA=/home/tydingcw/Rosetta/rosetta/source/bin/simple_cycpep_predict.linuxgccrelease
+ROSETTA=source/bin/simple_cycpep_predict.linuxgccrelease
 
 # Input variables
 SEQ=sequence.txt #`readlink -e $1`
@@ -18,7 +18,7 @@ NSTRUCT=100
 
 mkdir -p starting_struct/
 
-$ROSETTA \
+${ROSETTA_LOC}/$ROSETTA \
 -nstruct $NSTRUCT \
 -sequence_file $SEQ \
 -out:pdb_gz \
