@@ -730,7 +730,7 @@ relax_options = '''-parser:protocol xml_name
 -in:file:extra_res_path temp_lanthi_params
 '''
 
-def make_relax_scripts(ripp_topology_dict, mode, renamed_path, nmr=None, nmr_rlx=False, native=None):
+def make_relax_scripts(ripp_topology_dict, mode, renamed_path, nmr=None, nmr_rlx=False, native=None, extra_res='./'):
     if mode not in ['bb', 'full', 'free']:
         print('Invalid mode, must be one of: bb, full, free')
         exit(1)
@@ -811,6 +811,7 @@ def make_relax_scripts(ripp_topology_dict, mode, renamed_path, nmr=None, nmr_rlx
         with (open(f'{ripp}_{mode}.options', 'w') as opt_out):
             opt_str = relax_options.replace('8CWX', ripp).replace('file_loc', renamed_path)
             opt_str = opt_str.replace('xml_name', f'relax_{ripp}_{mode}.xml').replace('free', mode)
+            opt_str = opt_str.replace('temp_lanthi_params', extra_res)
             if native == None:
                 opt_str = remove_lines(opt_str, 'native')
             opt_out.write(opt_str)
@@ -870,7 +871,7 @@ def make_link_cst(renamed_path, ripp):
         cst_file.write(cst_out)
     return ripp+'_link.cst'
 
-def make_mc_scripts(ripp_topology_dict, renamed_path, nmr=None, native=None):
+def make_mc_scripts(ripp_topology_dict, renamed_path, nmr=None, native=None, extra_res='./'):
     for ripp in ripp_topology_dict.keys():
         cst_name = make_link_cst(renamed_path, ripp)
         num_rings = len(ripp_topology_dict[ripp][0])
@@ -934,6 +935,7 @@ def make_mc_scripts(ripp_topology_dict, renamed_path, nmr=None, native=None):
         with (open(f'{ripp}_mc.options', 'w') as opt_out):
             opt_str = mc_options.replace('8CWX', ripp).replace('file_loc', renamed_path)
             opt_str = opt_str.replace('xml_name', f'{ripp}_mc.xml')
+            opt_str = opt_str.replace('temp_lanthi_params', extra_res)
             if native == None:
                 opt_str = remove_lines(opt_str, 'native')
             opt_out.write(opt_str)
@@ -1032,7 +1034,7 @@ if __name__ == "__main__":
         ripp_len_dict = {}
         ripp_len_dict[args.ripp] = None
         topo_dict = make_ripp_topo(ripp_len_dict, renamed_path) #, True)
-        make_mc_scripts(topo_dict, renamed_path, nmr=args.nmr, native=args.native)
+        make_mc_scripts(topo_dict, renamed_path, nmr=args.nmr, native=args.native, extra_res=args.extra_res)
 
     # for the relax scripts
     elif args.mode == 'relax':
@@ -1040,4 +1042,4 @@ if __name__ == "__main__":
         ripp_len_dict[args.ripp] = None
         topo_dict = make_ripp_topo(ripp_len_dict, renamed_path) #, True)
         for mode in args.cst: #['bb', 'full', 'free']:
-            make_relax_scripts(topo_dict, mode, renamed_path, nmr=args.nmr, nmr_rlx=args.nmr_rlx, native=args.native)
+            make_relax_scripts(topo_dict, mode, renamed_path, nmr=args.nmr, nmr_rlx=args.nmr_rlx, native=args.native, extra_res=args.extra_res)
