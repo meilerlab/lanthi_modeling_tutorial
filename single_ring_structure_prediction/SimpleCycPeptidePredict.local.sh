@@ -45,5 +45,4 @@ ${ROSETTA_LOC}/$ROSETTA \
 -in:file:extra_res_path ../ncaa_params/ \
 > $LOG
 
-#-in:file:extra_rot_lib_path /dors/meilerlab/apps/rosetta/ \
 

@@ -14,7 +14,6 @@ ROSETTA=source/bin/simple_cycpep_predict.linuxgccrelease
 SEQ=sequence.txt #`readlink -e $1`
 LOG=6VHJ_predict.log #$4
 NSTRUCT=100
-#MPI=/dors/meilerlab/apps/Linux2/x86_64/mpich2/3.2.1/bin/mpirun
 
 mkdir -p starting_struct/
 
@@ -41,5 +40,4 @@ ${ROSETTA_LOC}/$ROSETTA \
 -in:file:extra_res_path ../../ncaa_params/ \
 > $LOG
 
-#-in:file:extra_rot_lib_path /dors/meilerlab/apps/rosetta/ \
 

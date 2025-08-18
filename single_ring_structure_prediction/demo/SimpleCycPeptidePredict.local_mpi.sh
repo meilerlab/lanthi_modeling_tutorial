@@ -47,7 +47,6 @@ $MPI -np $NP ${ROSETTA_LOC}/$ROSETTA \
 -score:weights ref2015_cst \
 -mute all \
 -unmute protocols.cyclic_peptide_predict.SimpleCycpepPredictApplication_MPI protocols.cyclic_peptide_predict.SimpleCycpepPredictApplication_MPI_summary \
--in:file:extra_rot_lib_path /dors/meilerlab/apps/rosetta/ \
 -in:file:extra_res_path ../../ncaa_params/ \
 > $LOG
 
