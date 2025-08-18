@@ -7,7 +7,7 @@
 #SBATCH --job-name="ripp_folding"
 
 #Rosetta version
-ROSETTA=/home/tydingcw/Rosetta/rosetta_blue_local/source/bin/rosetta_scripts.default.linuxgccrelease
+ROSETTA=source/bin/rosetta_scripts.default.linuxgccrelease
 
 OPTIONS=$1
 BASE=$2
@@ -15,5 +15,5 @@ BASE=$2
 dir=`basename $OPTIONS .options`
 mkdir -p $dir
 
-$ROSETTA -in:file:l ${BASE} @${OPTIONS} -mute all
+${ROSETTA_LOC}/$ROSETTA -in:file:l ${BASE} @${OPTIONS} -mute all
 
