@@ -6,3 +6,5 @@ complex_structure_prediction/  - predicting a lanthipeptide structure, requires 
 noe_restraint_data/  - getting all of the noe distance restraint values and scores for a given peptide conformation. 
 lanthipeptide_design/  - designing a lanthipeptide
 
+Check out the paper:
+[Lanthipeptide structure prediction and design with Rosetta](https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/S0076687926000017)
